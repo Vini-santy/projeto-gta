@@ -28,7 +28,7 @@ body {
     color: #e8e8e8;
     font-weight: bolder;
     font-size: 15px;
-    font-family: 'Chalet';
+    font-family: "Chalet";
 }
 
 .cabecalho .menu li a:hover {
@@ -36,15 +36,13 @@ body {
 }
 
 .home {
-    background-color: blue;
     display: flex;
     position: relative;
     min-height: calc(100vh - 80px);
 }
 
 .home::after {
-    background-color: blue;
-    content: '';
+    content: "";
     position: absolute;
     height: 100%;
     width: 100%;
@@ -79,7 +77,7 @@ body {
 }
 
 .home .informacoes .titulo {
-    font-family: 'ChaletComprime';
+    font-family: "ChaletComprime";
     font-size: 55px;
 }
 
@@ -89,7 +87,8 @@ body {
     line-height: 1.6;
 }
 
-.btn-comprar, .btn-plataforma {
+.btn-comprar, 
+.btn-plataforma {
     background-color: rgba(255, 255, 255, .1);
     border: 0.5px solid #fff;
     border-radius: 4px;
@@ -99,7 +98,7 @@ body {
     padding: 20px 40px;
     text-transform: uppercase;
     width: 50%;
-    transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .btn-plataforma {
@@ -149,13 +148,13 @@ body {
     gap: 30px;
 }
 
-.compre-ja .informacoes .titulo {
+.compre-ja .informacoes h3 {
     font-family: 'ChaletComprime';
     font-size: 52px;
     font-weight: 700;
 }
 
-.compre-ja .informacoes {
+.compre-ja .informacoes p {
     color: #e8e8e8;
     font-family: 'Chalet';
     font-size: 16px;
